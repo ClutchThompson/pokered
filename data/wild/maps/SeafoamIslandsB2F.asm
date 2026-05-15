@@ -7,7 +7,7 @@ IF DEF(_RED)
 	db 32, SLOWPOKE
 	db 28, HORSEA
 	db 30, STARYU
-	db 30, HORSEA
+	db 30, JYNX
 	db 28, SHELLDER
 	db 30, GOLBAT
 	db 37, SLOWBRO
