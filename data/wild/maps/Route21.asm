@@ -4,12 +4,12 @@ Route21WildMons:
 	db 23, PIDGEY
 	db 30, RATICATE
 	db 23, RATTATA
-	db 21, PIDGEY
+	db 21, PINSIR
 	db 30, PIDGEOTTO
-	db 32, PIDGEOTTO
+	db 32, PINSIR
 	db 28, TANGELA
 	db 30, TANGELA
-	db 32, TANGELA
+	db 32, PINSIR
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate
