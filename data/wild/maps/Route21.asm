@@ -1,6 +1,6 @@
 Route21WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 21, MRMIME
+	db 21, MR_MIME
 	db 23, PIDGEY
 	db 30, RATICATE
 	db 23, RATTATA
