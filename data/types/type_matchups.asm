@@ -79,7 +79,7 @@ TypeEffects:
 	db FIRE,         DRAGON,       NOT_VERY_EFFECTIVE
 	db WATER,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ELECTRIC,     DRAGON,       NOT_VERY_EFFECTIVE
-	db GRASS,        DRAGON,       NOT_VERY_EFFECTIVE
+	db PSYCHIC_TYPE, BUG,          NOT_VERY_EFFECTIVE
 	db ICE,          DRAGON,       SUPER_EFFECTIVE
 	db DRAGON,       DRAGON,       SUPER_EFFECTIVE
 	db -1 ; end
