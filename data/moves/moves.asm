@@ -24,7 +24,7 @@ Moves:
 	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, BUG,          100, 15
 	move GUILLOTINE,   OHKO_EFFECT,                  1, BUG,           30,  5
 	move RAZOR_WIND,   NO_ADDITIONAL_EFFECT,        90, FLYING,        60, 10
-	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100, 30
+	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100,  5
 	move CUT,          NO_ADDITIONAL_EFFECT,        50, NORMAL,        95, 30
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        35, FLYING,       100, 35
