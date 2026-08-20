@@ -25,33 +25,33 @@ Moves:
 	move GUILLOTINE,   OHKO_EFFECT,                  1, BUG,           30,  5
 	move RAZOR_WIND,   NO_ADDITIONAL_EFFECT,        90, FLYING,        60, 10
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100,  5
-	move CUT,          NO_ADDITIONAL_EFFECT,        50, NORMAL,        95, 30
+	move CUT,          FLINCH_SIDE_EFFECT2,         50, NORMAL,        95, 20
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        35, FLYING,       100, 35
+	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,       100, 20
 	move WHIRLWIND,    SWITCH_AND_TELEPORT_EFFECT,   0, NORMAL,        85, 20
-	move FLY,          FLY_EFFECT,                  70, FLYING,        95, 15
-	move BIND,         TRAPPING_EFFECT,             15, NORMAL,        75, 20
-	move SLAM,         NO_ADDITIONAL_EFFECT,        80, NORMAL,        75, 20
+	move FLY,          FLY_EFFECT,                  90, FLYING,        95, 15
+	move BIND,         TRAPPING_EFFECT,             35, NORMAL,        75, 20
+	move SLAM,         NO_ADDITIONAL_EFFECT,        80, NORMAL,        75, 30
 	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        35, GRASS,        100, 10
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,     100, 30
 	move MEGA_KICK,    NO_ADDITIONAL_EFFECT,       120, NORMAL,        75,  5
 	move JUMP_KICK,    JUMP_KICK_EFFECT,            70, FIGHTING,      95, 25
 	move ROLLING_KICK, FLINCH_SIDE_EFFECT2,         60, FIGHTING,      85, 15
-	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,        0, NORMAL,       100, 15
+	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,        0, GROUND,       100, 10
 	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         70, NORMAL,       100, 15
 	move HORN_ATTACK,  NO_ADDITIONAL_EFFECT,        65, NORMAL,       100, 25
-	move FURY_ATTACK,  TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,        85, 20
-	move HORN_DRILL,   OHKO_EFFECT,                  1, NORMAL,        30,  5
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, NORMAL,        95, 35
+	move FURY_ATTACK,  TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,        90, 15
+	move HORN_DRILL,   OHKO_EFFECT,                  1, ROCK,          30,  5
+	move TACKLE,       NO_ADDITIONAL_EFFECT,        40, NORMAL,        95, 35
 	move BODY_SLAM,    PARALYZE_SIDE_EFFECT2,       85, NORMAL,       100, 15
 	move WRAP,         TRAPPING_EFFECT,             15, NORMAL,        85, 20
 	move TAKE_DOWN,    RECOIL_EFFECT,               90, NORMAL,        85, 20
-	move THRASH,       THRASH_PETAL_DANCE_EFFECT,   90, NORMAL,       100, 20
+	move THRASH,       THRASH_PETAL_DANCE_EFFECT,   90, NORMAL,       100,  5
 	move DOUBLE_EDGE,  RECOIL_EFFECT,              100, NORMAL,       100, 15
 	move TAIL_WHIP,    DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
 	move POISON_STING, POISON_SIDE_EFFECT1,         15, POISON,       100, 35
-	move TWINEEDLE,    TWINEEDLE_EFFECT,            25, BUG,          100, 20
+	move TWINEEDLE,    TWINEEDLE_EFFECT,            30, BUG,          100, 20
 	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  14, BUG,           85, 20
 	move LEER,         DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
 	move BITE,         FLINCH_SIDE_EFFECT1,         60, NORMAL,       100, 25
