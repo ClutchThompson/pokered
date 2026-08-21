@@ -2,13 +2,13 @@ SeafoamIslandsB4FWildMons:
 	def_grass_wildmons 10 ; encounter rate
 IF DEF(_RED)
 	db 31, HORSEA
-	db 31, SHELLDER
+	db 31, JYNX
 	db 33, HORSEA
 	db 33, SHELLDER
 	db 29, SLOWPOKE
-	db 31, SEEL
-	db 31, SLOWPOKE
-	db 29, SEEL
+	db 31, JYNX
+	db 31, JYNX
+	db 29, JYNX
 	db 39, SLOWBRO
 ENDC
 IF DEF(_BLUE)
