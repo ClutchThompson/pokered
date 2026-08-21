@@ -5,11 +5,11 @@ Route21WildMons:
 	db 30, RATICATE
 	db 23, LICKITUNG
 	db 21, LICKITUNG
-	db 30, MRMIME
+	db 30, MR_MIME
 	db 32, PIDGEOTTO
 	db 28, TANGELA
 	db 30, TANGELA
-	db 32, MRMIME
+	db 32, MR_MIME
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate
