@@ -490,7 +490,7 @@ ScytherEvosMoves:
 	db 0
 ; Learnset
 	db 17, LEER
-	db 20, FOCUS_ENERGY
+	db 20, WING_ATTACK
 	db 24, DOUBLE_TEAM
 	db 29, SLASH
 	db 35, SWORDS_DANCE
@@ -621,7 +621,7 @@ SlowpokeEvosMoves:
 
 KadabraEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, ALAKAZAM
+	db EVOLVE_LEVEL, 36, ALAKAZAM
 	db 0
 ; Learnset
 	db 16, CONFUSION
@@ -634,7 +634,7 @@ KadabraEvosMoves:
 
 GravelerEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, GOLEM
+	db EVOLVE_LEVEL, 43, GOLEM
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -659,7 +659,7 @@ ChanseyEvosMoves:
 
 MachokeEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, MACHAMP
+	db EVOLVE_LEVEL, 43, MACHAMP
 	db 0
 ; Learnset
 	db 20, LOW_KICK
@@ -986,7 +986,7 @@ MoltresEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, LEER
+	db 51, FLAMETHROWER
 	db 55, AGILITY
 	db 60, SKY_ATTACK
 	db 0
@@ -1170,7 +1170,8 @@ SeadraEvosMoves:
 	db 24, LEER
 	db 30, WATER_GUN
 	db 41, AGILITY
-	db 52, HYDRO_PUMP
+	db 45, HYDRO_PUMP
+    db 52, DRAGON_RAGE
 	db 0
 
 MissingNo5EEvosMoves:
@@ -1693,7 +1694,7 @@ MissingNo92EvosMoves:
 
 HaunterEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, GENGAR
+	db EVOLVE_LEVEL, 39, GENGAR
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
