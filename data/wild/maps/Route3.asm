@@ -1,6 +1,6 @@
 Route3WildMons:
 	def_grass_wildmons 20 ; encounter rate
-	db  6, PIDGEY
+	db  6, SANDSHREW
 	db  5, SPEAROW
 	db  7, PIDGEY
 	db  6, SPEAROW
