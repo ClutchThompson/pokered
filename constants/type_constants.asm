@@ -24,6 +24,5 @@ DEF UNUSED_TYPES_END EQU const_value
 	const ELECTRIC     ; $17
 	const PSYCHIC_TYPE ; $18
 	const ICE          ; $19
-	const DRAGON       ; $1A
 
 DEF NUM_TYPES EQU const_value
