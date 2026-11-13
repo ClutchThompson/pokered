@@ -270,6 +270,7 @@ VoltorbEvosMoves:
 ; Learnset
 	db 17, SONICBOOM
 	db 22, SELFDESTRUCT
+    db 25, THUNDERSHOCK
 	db 29, LIGHT_SCREEN
 	db 36, SWIFT
 	db 43, EXPLOSION
@@ -495,6 +496,7 @@ ScytherEvosMoves:
 	db 29, SLASH
 	db 35, SWORDS_DANCE
 	db 42, AGILITY
+    db 47, PIN_MISSILE
 	db 0
 
 StaryuEvosMoves:
@@ -531,6 +533,7 @@ PinsirEvosMoves:
 	db 30, GUILLOTINE
 	db 36, FOCUS_ENERGY
 	db 43, HARDEN
+    db 46, PIN_MISSILE
 	db 49, SLASH
 	db 54, SWORDS_DANCE
 	db 0
@@ -621,7 +624,7 @@ SlowpokeEvosMoves:
 
 KadabraEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, ALAKAZAM
+	db EVOLVE_LEVEL, 43, ALAKAZAM
 	db 0
 ; Learnset
 	db 16, CONFUSION
@@ -634,7 +637,7 @@ KadabraEvosMoves:
 
 GravelerEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, GOLEM
+	db EVOLVE_LEVEL, 38, GOLEM
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -659,7 +662,7 @@ ChanseyEvosMoves:
 
 MachokeEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, MACHAMP
+	db EVOLVE_LEVEL, 42, MACHAMP
 	db 0
 ; Learnset
 	db 20, LOW_KICK
@@ -708,9 +711,10 @@ ArbokEvosMoves:
 ; Learnset
 	db 10, POISON_STING
 	db 17, BITE
+    db 22, ACID
 	db 27, GLARE
 	db 36, SCREECH
-	db 47, ACID
+	db 47, SLUDGE
 	db 0
 
 ParasectEvosMoves:
@@ -986,7 +990,7 @@ MoltresEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, LEER
+	db 51, DRILL_PECK
 	db 55, AGILITY
 	db 60, SKY_ATTACK
 	db 0
@@ -1119,7 +1123,7 @@ DratiniEvosMoves:
 
 DragonairEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 55, DRAGONITE
+	db EVOLVE_LEVEL, 47, DRAGONITE
 	db 0
 ; Learnset
 	db 10, THUNDER_WAVE
@@ -1335,9 +1339,10 @@ EkansEvosMoves:
 ; Learnset
 	db 10, POISON_STING
 	db 17, BITE
+    db 20, ACID
 	db 24, GLARE
 	db 31, SCREECH
-	db 38, ACID
+	db 38, SLUDGE
 	db 0
 
 ParasEvosMoves:
@@ -1392,7 +1397,7 @@ BeedrillEvosMoves:
 	db 0
 ; Learnset
 	db 12, FURY_ATTACK
-	db 16, FOCUS_ENERGY
+	db 16, ACID
 	db 20, TWINEEDLE
 	db 25, RAGE
 	db 30, PIN_MISSILE
@@ -1693,7 +1698,7 @@ MissingNo92EvosMoves:
 
 HaunterEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, GENGAR
+	db EVOLVE_LEVEL, 48, GENGAR
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
@@ -1721,7 +1726,7 @@ AlakazamEvosMoves:
 
 PidgeottoEvosMoves:
 ; Evolutions
-	db EVOLVE_LEVEL, 36, PIDGEOT
+	db EVOLVE_LEVEL, 30, PIDGEOT
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
@@ -1755,8 +1760,8 @@ BulbasaurEvosMoves:
 	db EVOLVE_LEVEL, 16, IVYSAUR
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
-	db 13, VINE_WHIP
+	db 6, LEECH_SEED
+	db 9, VINE_WHIP
 	db 20, POISONPOWDER
 	db 27, RAZOR_LEAF
 	db 34, GROWTH
