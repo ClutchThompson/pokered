@@ -1,7 +1,7 @@
 Route21WildMons:
 	def_grass_wildmons 25 ; encounter rate
 	db 21, LICKITUNG
-	db 23, PIDGEY
+	db 23, MR_MIME
 	db 30, RATICATE
 	db 23, PINSIR
 	db 21, PINSIR
