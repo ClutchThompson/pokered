@@ -3,7 +3,7 @@ Route8WildMons:
 	db 18, PIDGEY
 IF DEF(_RED)
 	db 18, MANKEY
-	db 17, EKANS
+	db 17, MEOWTH
 	db 16, GROWLITHE
 	db 20, PIDGEY
 	db 20, MANKEY
