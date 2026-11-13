@@ -2,7 +2,7 @@ Route9WildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 16, RATTATA
 	db 16, SPEAROW
-	db 14, RATTATA
+	db 14, MEOWTH
 IF DEF(_RED)
 	db 11, EKANS
 	db 13, SPEAROW
